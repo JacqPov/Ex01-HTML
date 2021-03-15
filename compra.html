@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Compra</title>
+</head>
+<body>
+<form action="compra.php" method="post"> 
+    <fieldset style="background-color: burlywood; ">
+        <legend><b>Cadastro da Compra</b> </legend>
+
+        <p>
+            <label> <b>Código do Produto</b></label>
+            <input type="number" nome="codigo">
+            <label> <b>Nome: </b> </label>
+            <input type="nome" nome="nome">
+            <label> <b>Quantidade</b> </label>
+            <input type="number" nome="quantidade">
+            <label> <b>Forma de Pagamento</b> </label>
+            <select>
+                <option value="credito">Crédito</option>
+                <option value="débito">Débito</option>
+                <option value="alelo">Alelo Refeição</option>
+            </select>
+        </p>
+
+        <input type="submit" value="Adicionar ao Carrinho"> 
+        
+            <ul style="list-style: none;">
+                <li><a href="home.html" style="color: black; font-style: oblique;"> Retornar a Pagina Inicial</a></li>
+            </ul>
+        
+
+    </fieldset>
+
+</form>
+</body>
+</html>
